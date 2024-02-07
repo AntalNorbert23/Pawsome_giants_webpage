@@ -26,62 +26,24 @@
             </ul>
         </nav>
     </header>
-    <main class="boysmain" id="main">
-        <div class="flex flex-col p-2">
-            <div>
-                <img src="img/Boy1.jpg" alt="" class="boyspics_girlpics">
+    <main class="ps-20 mb-20" id="main">
+        <h1 class="py-3 w-1/2 text-xl">Complete the form to send us a message:</h1>
+        <section class="flex justify-between">
+            <form class="flex flex-col w-1/2 ">
+                <label for="lname" class="w-full py-2">Last name:</label>
+                <input type="text" id="lname" name="lname" required placeholder="Enter your last name" class="w-full py-2 ps-3 rounded-lg"/><span id="eroare_nume"></span>
+                <label for="fname" class="fname w-full py-2" >First name:</label>
+                <input type="text" id="fname" name="fname" required placeholder="Enter your first name" class="w-full py-2 ps-3 rounded-lg" /><span id="eroare_prenume"></span>
+                <label for="email" class="email w-full py-2">E-mail adress:</label>
+                <input type="email" id="email" name="email" required placeholder="someone@yahoo.com" class="w-full py-2 ps-3 rounded-lg"/><span id="eroare_email"></span>
+                <label for="message"  class="message w-full py-2">Message:</label>
+                <textarea rows="4" cols="50" class="rounded-lg ps-3" id="message"></textarea>
+                <input type="submit" name="Send" class="submit my-4 px-3 py-2 xs:px-10 xs:py-3 md:px-16 md:py-5 text-xs xs:text-base font-bold rounded-xl lg:border-2 text-white bg-navcolor lg:hover:text-navcolor lg:hover:bg-white lg:hover:border-navcolor lg:hover:border-2 hover:cursor-pointer" id="submit" value="Send"/>
+            </form>
+            <div class="px-8 flex items-start">
+                <img src="img/About2.jpg" alt="" class="max-w-full max-h-96 rounded-3xl mt-9">
             </div>
-            <div>
-                <div class="flex justify-center">
-                    <p class="catname">Mephysto</p>
-                </div>
-                <p>Date of birth:</p>
-                <p>Color:</p>
-                <p>Pedigree: <a href="" target="_blank" class="linkstotests">Pawpeds</a></p>
-                <p>Genetic tests:
-                    <a href="" target="_blank" class="linkstotests">SMA,</a>
-                    <a href="" target="_blank" class="linkstotests">PKDef,</a>
-                    <a href="" target="_blank" class="linkstotests">HCM</a>
-               </p>
-            </div>
-        </div>
-        <div class="flex flex-col p-2">
-            <div>
-                <img src="img/Boy1.jpg" alt="" class="boyspics_girlpics">
-            </div>
-            <div>
-                <div class="flex justify-center">
-                    <p class="catname">Tony</p>
-                </div>
-                <p>Date of birth:</p>
-                <p>Color:</p>
-                <p>Pedigree: <a href="" target="_blank" class="linkstotests">Pawpeds</a></p>
-                <p>Genetic tests:
-                    <a href="" target="_blank" class="linkstotests">SMA,</a>
-                    <a href="" target="_blank" class="linkstotests">PKDef,</a>
-                    <a href="" target="_blank" class="linkstotests">HCM</a>
-               </p>
-            </div>
-        </div>
-        <div class="flex flex-col p-2">
-            <div>
-                <img src="img/Boy1.jpg" alt="" class="boyspics_girlpics">
-            </div>
-            <div>
-                <div class="flex justify-center">
-                    <p class="catname">Ramses</p>
-                </div>
-                <p>Date of birth:</p>
-                <p>Color:</p>
-                <p>Pedigree: <a href="" target="_blank" class="linkstotests">Pawpeds</a></p>
-                <p>Genetic tests:
-                     <a href="" target="_blank" class="linkstotests">SMA,</a>
-                     <a href="" target="_blank" class="linkstotests">PKDef,</a>
-                     <a href="" target="_blank" class="linkstotests">HCM</a>
-                </p>
-            </div>
-        </div>
-        
+        </section>
     </main>
     <footer class="footer fixed">
         <div>
