@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header{
+    @apply flex justify-center xs:justify-around sm:justify-normal sm:flex sm:flex-row border-b-2;
+}
+.logo_wcf{
+    @apply h-10 sm:h-14 pr-2 scale-110 lg:hover:cursor-pointer  lg:hover:scale-125;
+}
+.logo_croatia{
+    @apply h-14 sm:h-16 pr-2 scale-110 lg:hover:cursor-pointer lg:hover:scale-125;
+}
+.logo_pawpeds{
+    @apply w-16 sm:w-20 pr-2 scale-110 lg:hover:cursor-pointer lg:hover:scale-125;
+}
+.picdiv{
+    @apply flex sm:flex sm:flex-1 sm:justify-start items-center ps-8 sm:ps-4 lg:ps-8 pe-4 py-3 md:px-6;
+}
+.navclass{
+    @apply sm:flex justify-center sm:static flex items-center ps-8 sm:ps-0 xs:relative;
+} 
+.navelements{
+    @apply flex items-center w-full h-full sm:text-sm md:text-base lg:text-lg xl:text-xl xs:px-10 sm:px-0 sm:rounded-xl text-background_hover sm:text-navcolor bg-navcolor sm:bg-background_hover sm:bg-background sm:hover:bg-background_hover hover:cursor-pointer ;
+}
+.navelements_a{
+    @apply flex items-center justify-center w-full h-full sm:px-2 md:px-3 lg:px-5 py-1;
+}
+.footer{
+    @apply flex items-center justify-between bottom-0 w-full h-16 ps-3 sm:ps-9  bg-footer_background ;
+}
+.footertext{
+    @apply  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-navcolor;
+}
+.footertext_w{
+    @apply  text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white;
+}
+.footerlogos{
+    @apply ps-2 sm:px-3 text-sm md:text-base lg:text-lg xl:text-xl text-white  hover:text-navcolor; 
+}
+.footer_tiktok{
+    @apply ps-2 sm:ps-3 pe-2 sm:pe-8 text-sm md:text-base lg:text-lg xl:text-xl text-white hover:text-navcolor;
+}
+
+
+
+.homemain{
+    @apply flex flex-col items-center justify-evenly md:flex-row md:items-start;
+}
+.homemain_divinner{
+    @apply flex flex-col items-center md:justify-between lg:justify-normal max-h-screen bg-home_background;
+}
+.homemain_pic1{
+    @apply xs:max-w-sm sm:max-w-xl md:max-w-lg xl:max-w-fit xl:max-h-fit;
+}
+.homemain_button{
+    @apply   px-3 py-2 xs:px-10 xs:py-3 md:px-16 md:py-5 text-xs xs:text-base font-bold rounded-xl text-white bg-navcolor lg:hover:text-navcolor lg:hover:bg-white lg:hover:border-navcolor lg:hover:border-2;
+}
+.homemain_pic2div{
+    @apply flex justify-center md:items-center  max-h-screen  pt-10 pe-5  xs:pe-10 sm:pe-20 md:pe-0 md:pt-2 xl:pt-3  bg-home_background;
+}
+.homemain_pic2{
+    @apply max-w-sm max-h-80 xs:max-h-none xs:max-w-96  md:max-w-sm md:max-h-96 xl:max-h-fit xl:max-w-md pb-8 pe-4 sm:pb-4 md:pe-0;
+}
+
+
+.aboutmain_titlediv{
+    @apply flex justify-center  px-2 sm:px-5 pt-5 pb-2 sm:pb-6;
+}
+.aboutmain_title{
+    @apply text-xl sm:text-3xl md:text-4xl lg:text-5xl font-medium;
+}
+.aboutmain_div_container{
+    @apply block lg:flex lg:justify-between lg:items-start px-2 md:p-5;
+}
+.aboutmain_div_inner{
+    @apply lg:flex lg:flex-col lg:justify-end px-2 xs:ps-3 xs:pe-4 lg:ps-7 lg:pe-9 xl:ps-10 xl:pe-14 ;
+}
+.aboutmain_WCF{
+    @apply  flex justify-center md:flex md:justify-start pb-8 lg:pb-0 lg:pt-16 md:indent-8 font-bold ;
+}
+.aboutmain_s_divinner{
+    @apply px-2 xs:ps-3 xs:pe-4 lg:ps-7 lg:pe-5 xl:ps-10 xl:pe-14;
+}
+.aboutmain_s_cat{
+    @apply indent-2 xs:indent-4 sm:indent-8 pb-4 sm:tracking-wider;
+}
+.vertical_horizontal_img{
+    @apply max-w-80 max-h-80 drop-shadow-lg;
+}
+
+
+.boysmain{
+    @apply flex flex-col xs:flex-row items-center xs:justify-evenly xs:p-5 mb-16;
+}
+.boyspics_girlpics{
+    @apply max-w-full max-h-96 rounded-md pointer-events-none;
+}
+.catname{
+    @apply text-navcolor font-bold text-lg pt-3;
+}
+.linkstotests{
+    @apply hover:text-navcolor underline;
+}
+.girlsmain_innerdiv{
+    @apply flex justify-evenly flex-col items-center sm:flex-row xs:p-6; 
+}
+.neuteredcatstitle{
+    @apply text-navcolor font-bold text-2xl pt-4 pb-6;
+}
+.neuteredcatsonly1img{
+    @apply max-w-full max-h-96 sm:max-w-full sm:max-h-80 md:max-w-full md:max-h-96 rounded-md pointer-events-none;
+}
